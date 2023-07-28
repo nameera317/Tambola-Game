@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambola Game Board</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Tambola Game Board</h1>
+  <div class="container">
+   
+    <div class="game-board">
+      <table id="board">
+        <!-- The table will be generated dynamically using JavaScript -->
+      </table>
+    </div>
+    <div class="button-group">
+      <button id="startGameBtn" onclick="startGame()">Start Game</button>
+      <button id="callNumberBtn" onclick="callNumber()">Call Number</button>
+      <button id="newGameBtn" onclick="newGame()">New Game</button>
+    </div>
+    <div class="ticket-generator" id="ticket-generator">
+      <label for="numTickets">Number of Tickets:</label>
+      <input type="number" id="numTickets" min="1" max="20">
+      <button id="generateTicketsBtn" onclick="generateTickets()">Generate Tickets</button>
+    </div>
+  </div>
+  <audio id="button-click-sound" src="4V2QKN6-vibrant-game-game-touch-5.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

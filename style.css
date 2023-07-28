@@ -1,0 +1,127 @@
+body {
+    background-color: #54c3ef;
+    font-family: "Caveat Brush", cursive;
+    
+}
+.heading{
+  color:#fad744;
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #2b3252;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .called {
+    /* Add styles for called numbers in the Tambola board */
+    background-color: yellow;
+  }
+
+  .ticket-called {
+    /* Add styles for called numbers in the ticket table */
+    background-color: yellow;
+  }
+
+ td {
+    border: 10px solid #2b3252;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    background-color: white;
+    width:30px;
+    height: 30px;
+}
+.game-board {
+  text-align: center;
+  margin: 5px 0;
+}
+
+  
+
+td[data-number="yellow"] {
+  background-color: yellow;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+    margin: 10px;
+    background-color: #fad744;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Caveat Brush", cursive;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+.button-group button:hover{
+    background-color: yellow;
+}
+.ticket-generator {
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-flex;
+  }
+      
+.ticket-generator button {
+    margin: 10px;
+    background-color: #fad744;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Caveat Brush", cursive;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+.ticket-generator button:hover{
+    background-color: yellow;
+}
+      
+.ticket-generator label {
+    font-size: 30px;
+    margin-right: 10px;
+    font-family: "Caveat Brush", cursive;
+    color: #fad744;
+
+
+  }
+  .ticket table{
+    margin-bottom: 10px;
+  }
+  .ticket-generator input {
+    background-color: #fad744;
+    padding: 10px;
+    height: 25px;
+    font-family: "Caveat Brush", cursive;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+  }
+  .ticket-generator input:hover{
+    background-color: yellow;
+}
+#generateTicketsBtn{
+  margin-top: 0;
+}
